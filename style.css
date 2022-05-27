@@ -1,4 +1,4 @@
-body{max-width: 1350px;margin: 0px; padding: 0; background: #fff;}
+body{min-width: 1350px;margin: 0px; padding: 0; background: #fff;}
 
 .header{ position: sticky; visibility: visible; top: 0px;z-index: 100; 
 	background: #F1F1F1; padding: 0;}
