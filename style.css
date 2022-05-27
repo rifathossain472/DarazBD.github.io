@@ -1,0 +1,274 @@
+body{max-width: 1350px;margin: 0px; padding: 0; background: #fff;}
+
+.header{ position: sticky; visibility: visible; top: 0px;z-index: 100; 
+	background: #F1F1F1; padding: 0;}
+	 
+
+.menu ul{ list-style: none; padding-left:0px; }
+
+.menu ul li{float: left; background-color: #ECECEC; padding:5px 20px 
+	5px 10px; }
+
+.menu ul li a{text-decoration: none;color: black;display: block;font-size: 14px;
+	width: 100%; background: #ECECEC; position: relative;}
+
+.menu ul li a:hover { color: red; }
+
+.menu .frist{ padding-left: 550.7px; }
+
+.menu ul li a b{ font-size: 11px; background:#ECECEC; }
+
+.submenu li{ position: relative  ; display: inline-block; }
+
+.clear{ clear: both; }
+#clear{ clear: both; }
+
+.main{ margin: 20px 80px 10px 90px; display:inline-block; width: 100%; }
+.logo{ float: left; }
+.search{ float: left; margin: 10px 0px 0px 60px;}
+.cart{ float: left; margin: 20px 10px 0px 25px; }
+.offer{ float: left; margin-left: 50px;}
+
+.box{width: 400px;height: 45px;border: none; padding-left: 10px; background: #C7CACF;
+ margin-right: 10px; font-size: 16px; float: left;}
+
+.bottum{border: none;background: orange;border-radius: 40px; float: left;
+	font-weight: bold; font-size: 20px; padding: 5px;}
+
+.mainDiv{ width: 100%; margin:0px; padding-left: 90px; background: #93F2CA; 
+	min-height: 400px;}
+
+.mainDiv .sliderItem img{ width: 92%; height: 400px; margin-left: 0px; }
+
+
+.sliderContent .sliderItem{ position: absolute; opacity: 0; transition:all 2s;
+	width:74.4%; height: 400px; }
+
+
+
+.sliderContent .sliderItem.active{ opacity: 1; }
+
+.sliderContent{ float: left;}
+
+
+
+
+
+.nav{ background: #fff;  min-height: 400px; float: left; min-width: 230px; 
+	padding-left: 0px; font-family: arial; margin-top: 0px; margin-left: 0px;}
+
+.nav ul{ list-style: none; font-size: 20px; margin-top: 0px; padding-left: 0px;}
+
+.nav ul li{padding-bottom: 11px; position: relative; padding-left: 15px; }
+
+.nav ul a{ text-decoration: none;color: black; margin-left: 0px;}
+
+.nav ul li:hover { background: #E0E0E0;}
+
+.nav ul li a:hover { color: #209EB9;}
+
+.nav ul a li:hover { color: #209EB9;}
+
+.nav ul li ul{ display: none; position: absolute; list-style: none;}
+
+.nav ul li:hover ul{ display: inline-block; top: 0px; border-right: 1px groove gray;
+visibility: visible; z-index: 100; color: #209EB9; position: absolute; padding-left: 0px;
+margin-left: 61.80px; }
+
+.nav ul li ul{ margin-left: 0px; margin-top: 0px; min-height: 400px; background: #fff; 
+	position: absolute;}
+
+.nav ul li ul li{ font-size: 20px; min-width: 200px;min-height: 23px;padding-left: 10px;}
+
+
+
+
+
+.container{ background: #E0E0E0;max-width: 1350px; padding: 20px 80px 5px 90px; }
+
+.info{ margin-bottom: 30px; }
+
+.daraz{ min-width: 200px; background: white; border: none; border-radius: 20px; 
+	font-size: 20px; padding: 5px; font-weight: bold; display: inline-block; float: left;
+	margin:0px 32px 10px 0px; color: black;}
+
+.daraz img{ float: left; margin-right: 10px;}
+
+.maserBazar{ min-width: 200px; background: white; border: none; border-radius: 20px; 
+	font-size: 20px; padding: 5px; font-weight: bold;display: inline-block; float: left;
+	color: black;}
+
+.maserBazar img{ float: left;  margin-right: 10px;}
+
+.seeMore{ font-size:20px; font-family: arial; float: right; margin: 40px 20px 0px 0px;}
+
+.seeMore a{ color: #0091EA; text-decoration: none;}
+
+.seeMore a:hover { color: red; }
+
+.flashSale{ margin: 0px 0px 20px 0px;}
+
+.flashSaleItem{ background: #fff; min-height: 325px;}
+
+.flashSale p{ font-size: 30px; font-family: arial; margin-bottom: 10px; float: left;}
+
+.fsitem{  margin: 5px 0px 0px 0px; padding: 10px 0px 10px 0px; float: left;}
+
+.fsName{ font-size: 16px; padding: 0px 8px 0px 8px; color: black;}
+
+.fsPrice3{ margin-top: 19px; color: #F7813C; font-size: 20px;padding: 5px 8px 0px 8px;}
+
+.fsPrice{ color: #F7813C; font-size: 20px; padding: 5px 8px 0px 8px;}
+
+.fsLessPrice{ font-size: 14px; padding: 5px 8px 0px 8px; color: black;}
+
+.parcentang{ font-size: 18px; color: #F92472; }
+
+.darazMall{ margin: 0px 0px 20px 0px; }
+
+.darazMallItem{  min-height: 310px;}
+
+.darazMall p{ font-size: 30px; font-family: arial; margin-bottom: 10px; float: left;}
+
+.dmitem{  margin: 5px 12px 0px 0px; padding: 10px 0px 10px 0px; float: left; 
+	background: #fff;  box-shadow: 2px 1px 2px 2px #A8A8A8;}
+
+.dmitem2{  margin: 5px 0px 0px 0px; padding: 10px 0px 10px 0px; float: left; 
+	background: #fff; box-shadow: 2px 1px 2px 2px #A8A8A8;}
+
+.dmName{ font-size: 16px; padding: 0px 8px 0px 8px; text-align: center; color: black;}
+
+.dmName1{ font-size: 14px; padding: 0px 8px 0px 8px; text-align: center; color: black;}
+
+.dmDetail{ font-size: 12px; padding: 5px 8px 0px 8px;text-align: center;color: #A8A8A8;}
+
+.collections{ margin-bottom: 20px;}
+
+.collections p{ font-size: 30px; font-family: arial; margin-bottom: 10px; float: left;}
+
+.workstation{padding: 7px;float: left; background: #fff; max-width: 293.25px; 
+	text-align: center; }
+
+.collectionsName{ font-size: 20px; margin-bottom:8px; color: black; margin-top: 10px;}
+.products{ color: #A8A8A8; padding-bottom: 20px;}
+
+.addabuzz{padding: 7px; margin-left: 2px; float: left; background: #fff; 
+	max-width: 293.25px; text-align: center; }
+
+.f{float: left;  margin: 0px 6px 10px 0px; }
+.s{float: left;  margin: 0px 5px 10px 0px; }
+.t{float: left;  margin: 0px 5px 10px 0px; }
+
+.beautyBlogger{padding: 7px; margin-right: 2px; float: left; background: #fff; 
+	max-width: 293.25px; text-align: center; margin-top:2px; }
+.budgetHeadphones{padding: 7px; float: left; background: #fff; max-width: 293.25px; 
+	text-align: center; margin-top:2px;}
+
+.catagoris{ float: left; margin: 60px 0px 60px 0px;}
+.catagoris p{ font-size: 30px; font-family: arial; margin-bottom: 10px; float: left;}
+
+.handToll{ float: left; background: #fff; max-width: 145.6px; text-align: center; 
+	margin-right: 2px; }
+
+.handToll1{ float: left; background: #fff; max-width: 145.6px; text-align: center; 
+	margin: 2px 2px 0px 0px; }
+
+.handTollLast{ float: left; background: #fff; max-width: 145.6px; text-align: center; 
+	margin-left: 1px;}
+.handToll1Last{ float: left; background: #fff; max-width: 145.6px; text-align: center; 
+	margin: 2px 0px 0px 1px; }
+.catagorisName{ font-size: 18px; margin-bottom:8px; color: black; }
+
+.justForYou{ margin-bottom: 40px; }
+.justForYou p{ font-size: 30px; font-family: arial; margin-bottom: 10px; float: left;}
+
+.jsyitem{  margin: 5px 12px 0px 0px; padding: 10px 0px 10px 0px; float: left; 
+	background: #fff; min-width: 186.40px; }
+
+.jsyitem2{  margin: 5px 0px 0px 0px; padding: 10px 0px 10px 0px; float: left; 
+	background: #fff;}
+
+.jsyitemSecond{  margin: 10px 12px 0px 0px; padding: 10px 0px 10px 0px; float: left; 
+	background: #fff;}
+
+.jsyitemSecond2{   margin: 10px 0px 0px 0px; padding: 10px 0px 10px 0px; float: left; 
+	background: #fff; }
+
+.ds{ margin-left: 45px; }
+
+.loadMore{ max-width: 530px; border: 2px solid #209EB9; text-align: center;
+	margin-left: 320px;}
+.load{ color: #209EB9; font-size: 20px; font-weight: bold; font-family: arial;
+	padding: 15px 20px 15px 20px; }
+
+.load:hover { color: red;}
+
+
+
+
+.footer{ background: #E0E0E0; padding: 10px 15px 0px 15px;}
+
+.top{ background: #2E2E54; color: #fff; padding: 20px 20px 50px 80px; float: left;}
+
+.customerCare{ font-size: 24px; margin-bottom: 15px; }
+
+.customerCare1{ font-size: 24px; margin-bottom: 15px; }
+
+a{ text-decoration: none; color: #fff; }
+
+.topSection1{ float: left;}
+
+.topSection2{ float: left; margin:30px 230px 0px 170px }
+
+.topSection3{ float: left; margin-right: 0px; display: inline-block;}
+
+.topSec3img{ border-radius: 10px; }
+
+.topSection4{ float: left; margin: 30px 227px 20px 0px;}
+
+.hp{ font-size: 18px; color: #D26A36; }
+
+.d{ font-size: 18px; }
+
+.topSec4img1{ background: #fff; padding:5px; max-height: 65px; display: inline-block; 
+	border-radius: 10px; }
+
+.topSec4img2{ border-radius: 10px; margin-top: 10px; }
+
+.middle{ background: #fff; padding: 20px 20px 25px 80px;}
+
+.middleSection1{ margin-right: 50px; float: left; }
+
+.visa{ float: left; margin-top: 5px;}
+.mastercard{ margin: 15px 0px 0px 15px; float: left;}
+.bkash{ margin: 15px 0px 0px 15px; float: left;}
+
+.middleSection2{ float: left; margin-right: 40px; }
+
+.middleSection2 img{ margin: 10px 8px 0px 0px }
+
+.facebook{float: left;}
+
+.instagram{ float: left; }
+
+.all{ float: left; margin-top: 5px; }
+
+.middleSection3{ float: left; margin-right: 40px; }
+.middleSection3 img{ margin: 0px 5px 0px 0px }
+
+.middleSec5{ font-size: 24px; margin-top: 20px; font-family: arial;}
+
+.last{ background: #F1F1F1; padding: 20px 20px 30px 80px; 
+min-height: 570px;}
+
+.lastSection1{ float: left; max-width: 250px;}
+.lastSection2{ float: left; max-width: 250px; margin-left: 40px;}
+.lastSection3{ float: left; max-width: 250px; margin-left: 40px;}
+.lastSection4{ float: left; max-width: 250px; margin-left: 50px;}
+
+.lastBigLetter{ font-size: 20px; font-family: arial; }
+.lastSmallLetter{ font-size: 14px; font-family: arial; color: #616161;}
+.lastMediumLetter{ font-size: 16px; font-family: arial;}
+
+
+
