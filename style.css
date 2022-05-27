@@ -35,7 +35,7 @@ body{min-width: 1350px;margin: 0px; padding: 0; background: #fff;}
 .bottum{border: none;background: orange;border-radius: 40px; float: left;
 	font-weight: bold; font-size: 20px; padding: 5px;}
 
-.mainDiv{ width: 1260px; margin:0px; padding-left: 90px; background: #93F2CA; 
+.mainDiv{ width: 1000px; margin:0px; padding-left: 90px; background: #93F2CA; 
 	min-height: 400px;}
 
 .mainDiv .sliderItem img{ width: 92%; height: 400px; margin-left: 0px; }
